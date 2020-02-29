@@ -1,0 +1,71 @@
+@import 'iconfont.wxss';
+.ctrl {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 100%;
+}
+
+.ctrl-item {
+  flex: 1;
+  text-align: center;
+  color: rgba(40, 47, 60, 0.8);
+  font-size: 26rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctrl-item .icon {
+  margin-right: 12rpx;
+  font-size: 32rpx;
+}
+
+.ctrl-item text {
+  font-size: 32rpx;
+}
+
+.comment-content {
+  margin-left: 5rpx;
+  margin-top: 5rpx;
+  width: 88%;
+  /* height: 75%; */
+  text-align: left;
+  left: 0px;
+}
+
+.send {
+  background: #d43c33;
+  color: #fff;
+  right: 10rpx;
+  font-size: 15px !important;
+  border-radius: 10px;
+  margin-left: 80%;
+  margin-bottom: 15px;
+}
+
+.jing {
+  color: rgba(40, 47, 60, 0.8);
+}
+
+.share-btn {
+  background-color: #fff;
+  color: rgba(40, 47, 60, 0.8);
+  padding: 0;
+  height: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn::after {
+  display: none;
+}
+
+.share-hover::after {
+  border: 0;
+}

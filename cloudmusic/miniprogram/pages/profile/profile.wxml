@@ -1,0 +1,30 @@
+<view class="profile-header">
+  <view class="avatar-url">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="nickname"></open-data>
+</view>
+
+<view class="nav">
+  <view class="nav-item">
+    <navigator class="content" hover-class="none" url="/pages/profile-history/profile-history">
+      <text class="iconfont icon-bofangzhong"></text>
+      <text class="text">最近播放</text>
+      <text class="iconfont icon-fenyexiayiye-chubanxitongshujutongji"></text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator class="content" hover-class="none" url="/pages/blog-history/blog-history">
+      <text class="iconfont icon-ziyuan"></text>
+      <text class="text">我的发现</text>
+      <text class="iconfont icon-fenyexiayiye-chubanxitongshujutongji"></text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <view class="content" bindtap="createQrcode">
+      <text class="iconfont icon-xiaochengxuma"></text>
+      <text class="text">小程序码</text>
+      <text class="iconfont icon-fenyexiayiye-chubanxitongshujutongji"></text>
+    </view>
+  </view>
+</view>
